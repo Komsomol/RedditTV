@@ -63,7 +63,7 @@ var app = {
 			$('.main').append(video_template(data));
 		});
 
-		$('.video').fitVids();
+		
 	}
 };
 
