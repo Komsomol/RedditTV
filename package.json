@@ -1,0 +1,28 @@
+{
+  "name": "reddit-tv",
+  "version": "0.5.0",
+  "description": "pull videos from reddit videos api and display",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komsomol/RedditTV.git"
+  },
+  "keywords": [
+    "reddit-tv",
+    "test",
+    "project",
+    "learning"
+  ],
+  "author": "Farhad Agzamov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Komsomol/RedditTV/issues"
+  },
+  "homepage": "https://github.com/Komsomol/RedditTV#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
