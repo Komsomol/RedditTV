@@ -10,6 +10,8 @@ var app = {
 
 		console.log(url);
 
+
+
 		$.ajax({
 			type: "get",
 			url: "./video.html",
@@ -58,8 +60,10 @@ var app = {
 
 		// iterate over this and inject into template
 		_.each(data, function(data){
-				$('.main').append(video_template(data));
+			$('.main').append(video_template(data));
 		});
+
+		$('.video').fitVids();
 	}
 };
 
